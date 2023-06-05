@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--main_color1);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 25px;
+    background-image: linear-gradient(var(--main_color3),#000000);
+}
+.body{
+    display: flex;
+    justify-content: end;
+}
+/**************** fitnes_content *****************/
+#fitnes_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+@keyframes min_panel{
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes max_panel{
+    0%{
+        width: 80%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.bg_home{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: var(--bg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bg_home img{
+    width: 100vw;
+}
+

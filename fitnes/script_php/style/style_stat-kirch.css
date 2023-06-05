@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-align: center;
+}
+body{
+    background-image: var(--bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/******************************page**********************/
+.aktef_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+/********************img_bras*************/
+.aktef_imge{
+    background-image: url(../icons/panel_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    height: 90%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card_img{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card_img img{
+    height: 100%;
+    width: 70%;
+}
+.card_img .detels_kirch_img{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_add_fit{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+}
+.card_img p{
+    height: 100%;
+    width: 60%;
+    font-size: 1.5vw;
+    font-family: cursive;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img .button_bras{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a37b0d;
+    border-style: solid;
+    border-radius: 10px;
+}
+#button_ass{
+    background-color: #7a1387;
+}
+/********************stat_bras*************/
+.stat_aktef{
+    display: flex;
+    align-items: center;
+    height: 90%;
+    width: 47%;
+}
+.card_stat{
+    background-color: var(--main_color2);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    height: 60%;
+    width: 100%;
+}

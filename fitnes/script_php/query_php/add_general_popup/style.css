@@ -1,0 +1,109 @@
+.add_cat_frame{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 99vh;
+    background: #00000088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.add_cat_panel{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    background-image: url(../../icons/panel_home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exit{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-color: var(--main_color3);
+    background-color: var(--main_color3);
+    transition: 0.4s ease;
+    transform: rotate(45deg);
+    background-image: url(../../icons/add.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.exit:hover{
+    transform: scale(1.1);
+    background-color: #ee4242;
+}
+form{
+    height: 90%;
+    width: 100%;
+    background-image: url(../../icons/body.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60% 100%;
+}
+.val{
+    position: relative;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    background-color: #fff;
+    color: var(--main_color2);
+    font-family: var(--main_font);
+    width: 20%;
+    height:10%;
+}
+#r_bras_val{
+    top: 10%;
+    left :52%;
+}
+#l_bras_val{
+    top: 10%;
+    left :10%;
+}
+#choulder_val{
+    top: 20%;
+    left :1%;
+}
+#abdo_val{
+    top: 35%;
+    left :-20%;
+}
+#ass_val{
+    top: 40%;
+    left :42%;
+}
+#l_feet_val{
+    top: 70%;
+    left :2%;
+}
+#r_feet_val{
+    top: 70%;
+    left :20%;
+}
+#save_cat{
+    position: relative;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: var(--main_color3);
+    color: var(--font_color);
+    font-family: var(--main_font);
+    font-size: 1.5vw;
+    width: 25%;
+    height: 10%;
+    top: 88%;
+    left: -25%;
+    transition: 0.4s ease;
+}
+#save_cat:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,101 @@
+/**************************************.home_page*****************************/
+.home_page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100vh;
+}
+.home_page .card{
+    width: 100%;
+    min-height: 85%;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    border-style: solid;
+    background-image: url("../icons/panel_home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/****************detels****************/
+.deteles{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.deteles .title_fitnes{
+    font-size: 2vw;
+    font-family: var(--main_font);
+    color:  var(--font_color);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.deteles .paragraph{
+    font-size: 3.2vw;
+    font-family: var(--main_font);
+    color:  var(--font_color);
+    font-weight: 900;
+    width: 80%;
+}
+.deteles .paragraph span{
+    text-transform: uppercase;
+    color: var(--main_color3);
+}
+.deteles .buttons{
+    width: 50%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.deteles .but{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-size: 1.5vw;
+    font-family: var(--main_font);
+    color: var(--font_color);
+    font-weight: 900;
+    background-color: var(--main_color3);
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    border-style: solid;
+    transition: 0.4s ease;
+}
+#upload_photos{
+    font-size: 1.5vw;
+    font-family: var(--main_font);
+    color: var(--main_color3);
+    font-weight: 900;
+    background-color: #000;
+    border-radius: 10px;
+    border-color: var(--main_color3);
+    border-style: solid;
+}
+.but:hover{
+    transform: scale(1.1);
+}
+/****************image****************/
+.image_modole{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-image: var(--man);
+    background-size: contain;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
